@@ -5,3 +5,8 @@ variable "inst_name" {
 
 }
 
+variable "inst_type" {
+    description ="The type of the instance"
+    type = string 
+    default = "t2.micro"
+}
